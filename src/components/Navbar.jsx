@@ -11,25 +11,25 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <h1 className="font-bold text-lg tracking-tight">
-          <Link to="/portfolio" className="hover:text-blue-600">
+          <Link to="/" className="hover:text-blue-600">
             T.C. Bormon
           </Link>
         </h1>
 
         <nav className="flex gap-8 text-sm font-medium">
-          <HashLink to="/portfolio/#research" smooth>
+          <HashLink to="/#research" smooth>
             Research
           </HashLink>
 
-          <HashLink to="/portfolio/#publications" smooth>
+          <HashLink to="/#publications" smooth>
             Publications
           </HashLink>
 
-          <HashLink to="/portfolio/#Project" smooth>
+          <HashLink to="/#Project" smooth>
             Project
           </HashLink>
 
-          <Link to="/portfolio/certifications" className="hover:text-blue-600">
+          <Link to="/certifications" className="hover:text-blue-600">
             Certifications
           </Link>
         </nav>

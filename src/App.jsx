@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -33,10 +34,10 @@ export default function App() {
 
         <Routes>
           {/* Home */}
-          <Route path="/portfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
 
           {/* Certifications page */}
-          <Route path="/portfolio/certifications" element={<Certifications />} />
+          <Route path="/certifications" element={<Certifications />} />
         </Routes>
 
         <Footer />
