@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, Mail, Phone, Github, Linkedin, FileText, Award } from "lucide-react";
 import profileImg from "../assets/profile.png";
@@ -147,13 +148,13 @@ export default function Hero() {
             </a>
 
             {/* Certification — Mobile Only */}
-            <a
-              href="/portfolio/certifications"
+            <Link
+              to="/portfolio/certifications"
               className="inline-flex lg:hidden items-center gap-2 px-5 py-2.5 rounded-lg border border-gray-300 text-gray-800 font-medium hover:bg-gray-50 transition"
             >
               <Award size={18} />
               Certification
-            </a>
+            </Link>
 
           </div>
         </motion.div>
