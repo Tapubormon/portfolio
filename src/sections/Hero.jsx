@@ -148,7 +148,7 @@ export default function Hero() {
 
             {/* Certification — Mobile Only */}
             <a
-              href="/certifications"
+              href="/portfolio/certifications"
               className="inline-flex lg:hidden items-center gap-2 px-5 py-2.5 rounded-lg border border-gray-300 text-gray-800 font-medium hover:bg-gray-50 transition"
             >
               <Award size={18} />
