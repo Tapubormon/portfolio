@@ -20,28 +20,46 @@ const publications = [
     link: "https://drive.google.com/file/d/1ZNePBW9PyGz4O6PCrL-2JoyGPa4hYmCd/view?usp=sharing",
   },
   {
-    authors: "T. C. Bormon et al.",
-    year: "",
+    authors: "Dipto, S.T.; Rahman, M.M.; Bormon, T.C.; Talukder, M.H.; Harun-Ar-Rashid, M.",
+    year: "2026",
     title:
-      "Hybrid Benchmarking of Statistical and Neural Models for Multi Class Bangla Emotions Classification",
-    venue: "",
-    status: "Ready For Submission",
+      "Fruit Ripeness Classification Using Computer Vision on Hybrid ResNet50 and SVM Architecture",
+    venue: "IEEE ICEFronT",
+    status: "Under Review",
+    link: "#",
+  },
+  {
+    authors: "Hasan, A.; Bormon, T.C.; Bairagi, A.; Harun-Ar-Rashid, M.; Rahman, M.T.",
+    year: "2026",
+    title:
+      "Comparative ML and DL Approaches for News Classification on American and Bangladeshi Datasets",
+    venue: "IEEE ICEFronT",
+    status: "Under Review",
+    link: "#",
+  },
+  {
+    authors: "Rahim, A.; Bormon, T.C.; Hossain, A.S.M.D.; Alauddin, M.; Harun-Ar-Rashid, M.; Islam, R.",
+    year: "2026",
+    title:
+      "An ML Based Framework for Mental Health Prediction Using Behavioral and Physiological Data",
+    venue: "IEEE ICEFronT",
+    status: "Under Review",
+    link: "#",
+  },
+    {
+    authors: "Reza, M.A.; Ullah, M.; Bormon, T.C.; Islam, M.E.K.S.; Harun-Ar-Rashid, M.; Chowdhury, M.S.A.",
+    year: "2026",
+    title:
+      "DDoS Attack Detection and IP Blocking using HDBSCAN, DBSCAN, GMM, And Isolation Forest",
+    venue: "IEEE ICEFronT",
+    status: "Under Review",
     link: "#",
   },
     {
     authors: "T. C. Bormon et al.",
     year: "",
     title:
-      "A Comparative Analysis of Machine Learning and Deep Learning Models for News Classification Using American and Bangladeshi Datasets",
-    venue: "",
-    status: "Ready For Submission",
-    link: "#",
-  },
-      {
-    authors: "T. C. Bormon et al.",
-    year: "",
-    title:
-      "A Machine Learning-Based System for Mental Health Prediction Using Behavioral and Physiological Data",
+      "Hybrid Benchmarking of Statistical and Neural Models for Multi Class Bangla Emotions Classification",
     venue: "",
     status: "Ready For Submission",
     link: "#",
