@@ -10,6 +10,15 @@ const publications = [
     status: "Accepted",
     link: "https://drive.google.com/file/d/1IZQEzO2TD_CZ5XOuJnoVWgDd2nowNBIc/view?usp=sharing",
   },
+    {
+    authors: "Dipto, S.T.; Rahman, M.M.; Bormon, T.C.; Talukder, M.H.; Harun-Ar-Rashid, M.",
+    year: "2026",
+    title:
+      "Fruit Ripeness Classification Using Computer Vision on Hybrid ResNet50 and SVM Architecture",
+    venue: "IEEE ICEFronT",
+    status: "Conditionally Accepted",
+    link: "#",
+  },
   {
     authors: "Bormon, T.C.; Al Farid, F.; Mansor, S.; Harun-Ar-Rashid, M.; Chowdhury, M.S.A.; Ali, M.S.; Miah, A.S.M.; Islam, M.S.",
     year: "",
@@ -18,15 +27,6 @@ const publications = [
     venue: "Under Review",
     status: "Under Review",
     link: "https://drive.google.com/file/d/1ZNePBW9PyGz4O6PCrL-2JoyGPa4hYmCd/view?usp=sharing",
-  },
-  {
-    authors: "Dipto, S.T.; Rahman, M.M.; Bormon, T.C.; Talukder, M.H.; Harun-Ar-Rashid, M.",
-    year: "2026",
-    title:
-      "Fruit Ripeness Classification Using Computer Vision on Hybrid ResNet50 and SVM Architecture",
-    venue: "IEEE ICEFronT",
-    status: "Under Review",
-    link: "#",
   },
   {
     authors: "Hasan, A.; Bormon, T.C.; Bairagi, A.; Harun-Ar-Rashid, M.; Rahman, M.T.",
@@ -70,6 +70,8 @@ export default function Publications() {
   const getStatusStyle = (status) => {
     switch (status) {
       case "Accepted":
+        return "text-green-600 font-semibold";
+      case "Conditionally Accepted":
         return "text-green-600 font-semibold";
       case "Under Review":
         return "text-amber-600 font-medium";
