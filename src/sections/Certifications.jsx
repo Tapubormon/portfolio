@@ -8,21 +8,21 @@ const certifications = [
     title: "Research Assistant Experience Certificate",
     issuer: "Uttara University",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1783583433/Untitled-29_mgq54t.png",
-    liveLink: "https://drive.google.com/file/d/1FtpfeB1fkQq8vxYMvyDxZyyBxGwhgJmD/view?usp=sharing", // ✅ clickable
+    liveLink: "https://drive.google.com/file/d/1FtpfeB1fkQq8vxYMvyDxZyyBxGwhgJmD/view?usp=sharing", //
   },
   {
     id: 2,
     title: "Frontend Development Libraries V8",
     issuer: "freeCodeCamp",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1771649433/frontend_development_libraries_oraaal.png",
-    liveLink: "https://www.freecodecamp.org/certification/tapubormon/front-end-development-libraries", // ✅ clickable
+    liveLink: "https://www.freecodecamp.org/certification/tapubormon/front-end-development-libraries", //
   },
   {
     id: 3,
     title: "Data Visualization",
     issuer: "freeCodeCamp",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1771649432/data_visualization_ryrnpb.png",
-    pdf: "https://www.freecodecamp.org/certification/tapubormon/data-visualization", // ✅ local pdf
+    pdf: "https://www.freecodecamp.org/certification/tapubormon/data-visualization", // 
   },
   {
     id: 4,
