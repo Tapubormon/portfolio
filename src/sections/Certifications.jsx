@@ -5,34 +5,41 @@ import certImg from "../assets/profile.png"; // placeholder thumbnail
 const certifications = [
   {
     id: 1,
+    title: "Research Assistant Experience Certificate",
+    issuer: "Uttara University",
+    img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1783583433/Untitled-29_mgq54t.png",
+    liveLink: "https://drive.google.com/file/d/1FtpfeB1fkQq8vxYMvyDxZyyBxGwhgJmD/view?usp=sharing", // ✅ clickable
+  },
+  {
+    id: 2,
     title: "Frontend Development Libraries V8",
     issuer: "freeCodeCamp",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1771649433/frontend_development_libraries_oraaal.png",
     liveLink: "https://www.freecodecamp.org/certification/tapubormon/front-end-development-libraries", // ✅ clickable
   },
   {
-    id: 2,
+    id: 3,
     title: "Data Visualization",
     issuer: "freeCodeCamp",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1771649432/data_visualization_ryrnpb.png",
     pdf: "https://www.freecodecamp.org/certification/tapubormon/data-visualization", // ✅ local pdf
   },
   {
-    id: 3,
+    id: 4,
     title: "Ielts Excellence Scholarship",
     issuer: "IDP, The Daily Star",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1771649433/Tapu_Chandra_Bormon_page-0001_uwyntk.jpg",
     liveLink: "https://drive.google.com/file/d/1j0iOSsglo2zweQ03Ggu4cr55uyvIkU2i/view?usp=sharing",
   },
   {
-    id: 4,
+    id: 5,
     title: "Certificate of Participation",
     issuer: "University of Wolverhampton",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1771650291/ITSS-IoE-ID-02_page-0001_1_iy1p7i.jpg",
     pdf: "https://drive.google.com/file/d/1Fr0REZNJ_apP_0th5nCvnfbgSeYD8MmT/view?usp=sharing",
   },
   {
-    id: 4,
+    id: 6,
     title: "Dean's Honor Award",
     issuer: "Uttara University",
     img: "https://res.cloudinary.com/dlnxk6ndp/image/upload/v1771650291/Dean_Honor_page-0001_1_vspuff.jpg",

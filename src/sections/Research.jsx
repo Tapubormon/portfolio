@@ -2,12 +2,12 @@ import Card from "../components/Card";
 
 const researchExperiences = [
   {
-    title: "Research Assistant - Volunteer",
+    title: "Research Assistant / Hybrid",
     subtitle: "Supervisor: Md. Harun-Ar-Rashid, Senior Lecturer -- Uttara University",
     meta: "Edge AI, IoT, Cyber-security, ML, Health",
-    year: "2023–Present",
+    year: "2024–Present",
     description:
-      "Working on anomaly detection, federated learning, and intelligent security systems for IoT environments.",
+      "Working on fruit ripeness classification using hybrid deep learning and NLP-based emerging cyber threat intelligence.",
   },
   // Add more research items if needed
 ];
@@ -19,7 +19,7 @@ const workExperiences = [
     meta: "MERN Stack",
     year: "2022–Present",
     description:
-      "Developed full-stack web applications, e-commerce platforms, real-time chat apps, and financial dashboards using React, Node.js, Express, MongoDB, and WebRTC.",
+      "Developed full-stack applications including SF3D, e-commerce platforms, real-time communication systems, and interactive financial dashboards.",
   },
   // Add more work items if needed
 ];

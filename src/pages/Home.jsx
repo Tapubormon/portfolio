@@ -7,10 +7,10 @@ export default function Home() {
   // Research Experience
   const researchExperience = [
     {
-      title: "Research Assistant — Volunteer",
+      title: "Research Assistant",
       institution: "Uttara University, Bangladesh",
       supervisor: "Md. Harun-Ar-Rashid, Senior Lecturer",
-      year: "2022 – Present",
+      year: "2024 – Present",
       description: [
         "Conducted literature review and assisted in research methodology design.",
         "Participated in experimental setup, data preprocessing, and quantitative analysis.",
